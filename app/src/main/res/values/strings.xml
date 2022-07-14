@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BicepGamers</string>
+    <string name="chooseAGame">Choose A Game</string>
+    <string name="gameName">Game Name</string>
+    <string name="online">Online</string>
+    <string name="chooseADevice">Device</string>
+    <string name="chooseAGenre">Genre</string>
+    <string name="createAGame">Create Game</string>
+    <string name="selectGenre">Select a genre....</string>
+    <string name="selectDevice">Select a device</string>
+    <string name="addnewgame">Add New Game</string>
+    <string name="Games">games</string>
+    <string name="Timer">Timer</string>
+
+
+    <string-array name="Games">
+        <item>League Of Legends</item>
+        <item>Minecraft</item>
+        <item>Rocket League</item>
+    </string-array>
+
+    <string-array name="genre">
+        <item>MOBA</item>
+        <item>Sandbox</item>
+        <item>Real-Time Strategy</item>
+        <item>Shooter</item>
+        <item>RPG</item>
+        <item>Platformer</item>
+        <item>Survival And Horror</item>
+        <item>Action-Adventure</item>
+        <item>Puzzlers and Party Games</item>
+    </string-array>
+
+    <string-array name="devices">
+        <item>Pc</item>
+        <item>Console</item>
+        <item>Vr</item>
+        <item>Mobile</item>
+    </string-array>
+
+
+</resources>
