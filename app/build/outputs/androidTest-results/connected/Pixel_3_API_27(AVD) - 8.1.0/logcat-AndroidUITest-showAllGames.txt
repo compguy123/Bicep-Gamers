@@ -1,0 +1,487 @@
+04-25 11:50:19.921  8709  8733 I TestRunner: started: showAllGames(AndroidUITest)
+04-25 11:50:19.924  8709  8733 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+04-25 11:50:19.935  1792  1792 V StatusBar: setLightsOn(true)
+04-25 11:50:19.972  1792  1792 I chatty  : uid=10030(com.android.systemui) identical 2 lines
+04-25 11:50:19.984  1792  1792 V StatusBar: setLightsOn(true)
+04-25 11:50:19.998  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:20.061  1792  1792 V StatusBar: setLightsOn(true)
+04-25 11:50:20.124  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:20.156  1452  1452 E EGL_emulation: tid 1452: eglCreateSyncKHR(1962): error 0x3004 (EGL_BAD_ATTRIBUTE)
+04-25 11:50:20.165  1792  1792 V StatusBar: setLightsOn(true)
+04-25 11:50:20.171  1792  1792 V StatusBar: setLightsOn(true)
+04-25 11:50:20.205  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: PRE_ON_CREATE
+04-25 11:50:20.228  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:20.413  1792  2002 I chatty  : uid=10030(com.android.systemui) RenderThread identical 12 lines
+04-25 11:50:20.436  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:20.779  8709  8709 I System.out: db/BG.script
+04-25 11:50:20.810  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: CREATED
+04-25 11:50:20.812  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: STARTED
+04-25 11:50:20.819  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: RESUMED
+04-25 11:50:20.853  1452  1490 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+04-25 11:50:20.856  8709  8737 D OpenGLRenderer: HWUI GL Pipeline
+04-25 11:50:20.939  1669  4340 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-25 11:50:20.939  1669  4340 I OpenGLRenderer: Initialized EGL, version 1.4
+04-25 11:50:20.939  1669  4340 D OpenGLRenderer: Swap behavior 1
+04-25 11:50:20.941  1669  4340 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-25 11:50:20.941  1669  4340 D OpenGLRenderer: Swap behavior 0
+04-25 11:50:20.960  1669  4340 D EGL_emulation: eglCreateContext: 0xa2c778a0: maj 2 min 0 rcv 2
+04-25 11:50:20.970  1669  4340 D EGL_emulation: eglMakeCurrent: 0xa2c778a0: ver 2 0 (tinfo 0x910a8ed0)
+04-25 11:50:20.995  8709  8737 D         : HostConnection::get() New Host Connection established 0xa00bbd00, tid 8737
+04-25 11:50:20.995  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:21.004  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:21.007  8709  8737 I zygote  : android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+04-25 11:50:21.007  8709  8737 I OpenGLRenderer: Initialized EGL, version 1.4
+04-25 11:50:21.007  8709  8737 D OpenGLRenderer: Swap behavior 1
+04-25 11:50:21.007  8709  8737 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-25 11:50:21.007  8709  8737 D OpenGLRenderer: Swap behavior 0
+04-25 11:50:21.032  8709  8737 D EGL_emulation: eglCreateContext: 0xa2e050c0: maj 2 min 0 rcv 2
+04-25 11:50:21.032  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:21.043  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:21.045  1452  1904 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+04-25 11:50:21.203  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:21.640  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.HomePage: +1s662ms (total +24s39ms)
+04-25 11:50:21.694  8709  8714 I zygote  : Do partial code cache collection, code=27KB, data=30KB
+04-25 11:50:21.697  8709  8714 I zygote  : After code cache collection, code=25KB, data=29KB
+04-25 11:50:21.697  8709  8714 I zygote  : Increasing code cache capacity to 128KB
+04-25 11:50:21.729  7077  7223 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+04-25 11:50:21.730  7077  7223 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+04-25 11:50:21.733  7077  7223 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+04-25 11:50:21.743  1452  1986 E SurfaceFlinger: Failed to find layer (Background for - com.tastycactus.timesheet/com.tastycactus.timesheet.TimesheetActivity#0) in layer parent (no-parent).
+04-25 11:50:21.759  7077  7223 I FontLog : Pulling font file for id = 2, cache size = 1 [CONTEXT service_id=132 ]
+04-25 11:50:21.781  7077  7223 I FontLog : Pulling font file for id = 2, cache size = 1 [CONTEXT service_id=132 ]
+04-25 11:50:21.802  8709  8733 D EventInjectionStrategy: Creating injection strategy with input manager.
+04-25 11:50:21.895  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296471/com.example.bicepgamers:id/games>
+04-25 11:50:21.986  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 15856142 , only wrote 15855840
+04-25 11:50:22.078  8709  8720 I zygote  : Background concurrent copying GC freed 7059(771KB) AllocSpace objects, 1(20KB) LOS objects, 50% free, 2MB/4MB, paused 482us total 121.481ms
+04-25 11:50:22.079  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: PAUSED
+04-25 11:50:22.191  8709  8714 I zygote  : Do partial code cache collection, code=60KB, data=52KB
+04-25 11:50:22.192  8709  8714 I zygote  : After code cache collection, code=60KB, data=52KB
+04-25 11:50:22.192  8709  8714 I zygote  : Increasing code cache capacity to 256KB
+04-25 11:50:22.224  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@5eeefe4 in: PRE_ON_CREATE
+04-25 11:50:22.419  8709  8714 I zygote  : Do full code cache collection, code=70KB, data=69KB
+04-25 11:50:22.429  8709  8714 I zygote  : After code cache collection, code=46KB, data=36KB
+04-25 11:50:23.055  8709  8714 I zygote  : Do partial code cache collection, code=122KB, data=73KB
+04-25 11:50:23.057  8709  8714 I zygote  : After code cache collection, code=112KB, data=70KB
+04-25 11:50:23.057  8709  8714 I zygote  : Increasing code cache capacity to 512KB
+04-25 11:50:23.450  8709  8709 W System.err: Apr 25, 2022 11:50:23 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:23.451  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:23.573  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@5eeefe4 in: CREATED
+04-25 11:50:23.576  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@5eeefe4 in: STARTED
+04-25 11:50:23.580  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@5eeefe4 in: RESUMED
+04-25 11:50:23.594  8709  8709 I Choreographer: Skipped 85 frames!  The application may be doing too much work on its main thread.
+04-25 11:50:23.851  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 15945393 , only wrote 15944400
+04-25 11:50:23.852  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 15944442 , only wrote 15944400
+04-25 11:50:23.855  8709  8714 I zygote  : Do full code cache collection, code=218KB, data=190KB
+04-25 11:50:23.866  8709  8714 I zygote  : After code cache collection, code=199KB, data=139KB
+04-25 11:50:23.871  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 15945303 , only wrote 15945120
+04-25 11:50:23.884  8709  8720 I zygote  : NativeAlloc concurrent copying GC freed 1804(128KB) AllocSpace objects, 1(28KB) LOS objects, 49% free, 3MB/6MB, paused 460us total 107.891ms
+04-25 11:50:23.935  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:23.946  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:23.948  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:24.040  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:24.360  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:24.391  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.ShowAllGames: +2s297ms
+04-25 11:50:24.407  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:24.519  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: STOPPED
+04-25 11:50:24.733  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296330/com.example.bicepgamers:id/addGameButton>
+04-25 11:50:24.789  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@5eeefe4 in: PAUSED
+04-25 11:50:24.810  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.AddNewGame@ba2dc90 in: PRE_ON_CREATE
+04-25 11:50:24.996  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.AddNewGame@ba2dc90 in: CREATED
+04-25 11:50:24.997  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.AddNewGame@ba2dc90 in: STARTED
+04-25 11:50:25.001  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.AddNewGame@ba2dc90 in: RESUMED
+04-25 11:50:25.058  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:25.065  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:25.067  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:25.111  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:25.112  8709  8714 I zygote  : Do partial code cache collection, code=239KB, data=173KB
+04-25 11:50:25.115  8709  8714 I zygote  : After code cache collection, code=239KB, data=173KB
+04-25 11:50:25.115  8709  8714 I zygote  : Increasing code cache capacity to 1024KB
+04-25 11:50:25.247  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.AddNewGame: +454ms
+04-25 11:50:25.299  8709  8709 V View    : dispatchProvideAutofillStructure(): not laid out, ignoring 0 children of 1073741837
+04-25 11:50:25.321  1669  2401 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+04-25 11:50:25.321  1669  2401 W Binder  : java.lang.Throwable
+04-25 11:50:25.321  1669  2401 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.fetchData(AssistStructure.java:407)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at android.app.assist.AssistStructure$ParcelTransferReader.go(AssistStructure.java:343)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at android.app.assist.AssistStructure.ensureData(AssistStructure.java:2110)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at com.android.server.autofill.Session$1.send(Session.java:227)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at com.android.server.am.ActivityManagerService.reportAssistContextExtras(ActivityManagerService.java:13272)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2472)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2919)
+04-25 11:50:25.321  1669  2401 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+04-25 11:50:25.326  8709  8709 I AssistStructure: Flattened final assist data: 4116 bytes, containing 1 windows, 15 views
+04-25 11:50:25.392  1669  3138 I AssistStructure: Flattened final assist data: 3788 bytes, containing 1 windows, 15 views
+04-25 11:50:25.398  7077  7077 W pdz     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+04-25 11:50:25.417  7751  7751 D BoundBrokerSvc: onBind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:com.google.android.mdd.service.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-25 11:50:25.417  7751  7751 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.mdd.service.START dat=chimera-action:com.google.android.mdd.service.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-25 11:50:25.598  8709  8709 I ViewInteraction: Performing 'type text(diabloEspresso)' action on view view.getId() is <2131296469/com.example.bicepgamers:id/gameNameTxt>
+04-25 11:50:25.643  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@5eeefe4 in: STOPPED
+04-25 11:50:25.782  1770  1770 W GInputConnectionWrapper: Fixing selection indices to 0, 0
+04-25 11:50:25.811  1770  4729 W native  : neural_spatial_model.cc:371 Output symbol table doesn't contain symbol: &
+04-25 11:50:25.823  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9048064
+04-25 11:50:25.827  1442  1442 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-25 11:50:25.829  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9048064
+04-25 11:50:25.837  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:25.875  1770  4736 D EGL_emulation: eglMakeCurrent: 0xa2e05cc0: ver 2 0 (tinfo 0xa2e031a0)
+04-25 11:50:25.953  8709  8709 D UiControllerImpl: Injecting string: "diabloEspresso"
+04-25 11:50:26.037  1770  4729 I native  : input-context-store.cc:138 Ignoring stale client request for FetchSuggestions
+04-25 11:50:26.065  1770  1770 I native  : input-context-store.cc:113 Using roll back input context operation: [DecodeTouch] reason: client [66] vs decoder [67]
+04-25 11:50:26.411  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 16067046 , only wrote 16066800
+04-25 11:50:26.567  8709  8709 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2131296469/com.example.bicepgamers:id/gameNameTxt>
+04-25 11:50:26.589  1770  4736 D EGL_emulation: eglMakeCurrent: 0xa2e05cc0: ver 2 0 (tinfo 0xa2e031a0)
+04-25 11:50:26.886  1450  1450 I boot-pipe: done populating /dev/random
+04-25 11:50:26.898  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296474/com.example.bicepgamers:id/genreSpinner>
+04-25 11:50:26.991  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2256896
+04-25 11:50:26.994  1442  1442 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-25 11:50:26.996  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 2256896
+04-25 11:50:27.031  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.076  8709  8737 I chatty  : uid=10081(com.example.bicepgamers) RenderThread identical 1 line
+04-25 11:50:27.092  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.280  8709  8709 I ViewInteraction: Performing 'load adapter data' action on view is assignable from class <class android.widget.AdapterView>
+04-25 11:50:27.298  8709  8709 I ViewInteraction: Performing 'single click' action on view  displaying data matching: ANYTHING within adapter view matching: is assignable from class <class android.widget.AdapterView>
+04-25 11:50:27.452  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.478  8709  8737 I chatty  : uid=10081(com.example.bicepgamers) RenderThread identical 2 lines
+04-25 11:50:27.484  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.599  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296421/com.example.bicepgamers:id/deviceSpinner>
+04-25 11:50:27.780  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.785  8709  8737 D OpenGLRenderer: endAllActiveAnimators on 0x9209cd00 (DropDownListView) with handle 0x925b0380
+04-25 11:50:27.813  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1179648
+04-25 11:50:27.823  1442  1442 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-25 11:50:27.827  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 1179648
+04-25 11:50:27.861  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.875  8709  8714 I zygote  : Do full code cache collection, code=447KB, data=344KB
+04-25 11:50:27.878  8709  8714 I zygote  : After code cache collection, code=291KB, data=204KB
+04-25 11:50:27.895  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:27.907  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.135  8709  8709 I ViewInteraction: Performing 'load adapter data' action on view is assignable from class <class android.widget.AdapterView>
+04-25 11:50:28.160  8709  8709 I ViewInteraction: Performing 'single click' action on view  displaying data matching: ANYTHING within adapter view matching: is assignable from class <class android.widget.AdapterView>
+04-25 11:50:28.308  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.334  8709  8737 I chatty  : uid=10081(com.example.bicepgamers) RenderThread identical 2 lines
+04-25 11:50:28.344  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.443  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296598/com.example.bicepgamers:id/onlineSwitch>
+04-25 11:50:28.474  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.619  8709  8737 I chatty  : uid=10081(com.example.bicepgamers) RenderThread identical 6 lines
+04-25 11:50:28.637  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.651  6488  6488 I Finsky  : [2] abyu.onStartJob(3): SCH: onJobSchedulerWakeup with jobId 9002
+04-25 11:50:28.659  6488  6488 I Finsky  : [2] abtz.a(9): SCH: Scheduling fallback job with id: 9034, and delay: 43200000 ms
+04-25 11:50:28.665  6488  6488 I Finsky  : [2] abtz.b(9): SCH: Scheduling fallback in 64799996 (absolute: 72214259)
+04-25 11:50:28.665  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.674  8709  8737 D OpenGLRenderer: endAllActiveAnimators on 0x920e6500 (DropDownListView) with handle 0x925b0360
+04-25 11:50:28.686  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:28.720  6488  6488 I Finsky  : [2] abui.handleMessage(8): SCH: DeviceState: DeviceState{currentTime=1650905428711, isCharging=false, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true, batteryPercent=100.0}
+04-25 11:50:28.729  7077  7077 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:com.google.android.gms.nearby.exposurenotification.START cmp=com.google.android.gms/.chimera.PersistentApiService }
+04-25 11:50:28.729  6488  8551 I Finsky  : [608] abwt.b(5): SCH: Jobs in database: 1-1337 2-48879 3-1 10-78 12-1 24-77777777 26-1414141414 31-305419896
+04-25 11:50:28.749  6488  6488 I Finsky  : [2] abuj.b(10): SCH: Running job: 12-1
+04-25 11:50:28.753  6488  6488 I Finsky  : [2] ContentSyncJob.r(1): [ContentSync] job started
+04-25 11:50:28.761  7751  7751 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:com.google.android.gms.feedback.internal.IFeedbackService cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-25 11:50:28.772  6488  6488 I Finsky  : [2] abui.handleMessage(68): SCH: RunningQueue size: 1, PendingQueue size: 0
+04-25 11:50:28.774  6488  6488 I Finsky  : [2] abuj.p(3): SCH: Running queue: 12-1
+04-25 11:50:28.789  7077  7077 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE dat=chimera-action:com.google.android.gms.icing.LIGHTWEIGHT_INDEX_SERVICE cmp=com.google.android.gms/.chimera.PersistentApiService }
+04-25 11:50:28.857  6488  8682 I Finsky  : [620] glv.b(1): Completed 0 account content syncs with 0 successful.
+04-25 11:50:28.857  6488  6488 I Finsky  : [2] ContentSyncJob.a(1): [ContentSync] Installation state replication succeeded.
+04-25 11:50:28.857  6488  6488 I Finsky  : [2] abvs.n(4): SCH: jobFinished: 12-1. TimeElapsed: 105ms.
+04-25 11:50:28.858  6488  6488 I Finsky  : [2] abuj.e(4): SCH: Job 12-1 finished. Not rescheduling.
+04-25 11:50:28.860  6488  6488 I Finsky  : [2] abui.handleMessage(68): SCH: RunningQueue size: 0, PendingQueue size: 0
+04-25 11:50:28.863  6488  6488 I Finsky  : [2] abui.handleMessage(26): SCH: Executor finished
+04-25 11:50:28.900  6488  6488 I Finsky  : [2] abwt.b(5): SCH: Jobs in database: 1-1337 2-48879 3-1 10-78 24-77777777 26-1414141414 31-305419896
+04-25 11:50:28.906  6488  6488 I Finsky  : [2] abvf.d(37): SCH: ConstraintMapping: 24-77777777,  -> L: 0ms, D: 80106355ms, C: false, I: true, N: 0
+04-25 11:50:28.909  6488  6488 I Finsky  : [2] abvf.d(37): SCH: ConstraintMapping: 1-1337, 31-305419896,  -> L: 1620957ms, D: 56464248ms, C: false, I: false, N: 1
+04-25 11:50:28.909  6488  6488 I Finsky  : [2] abvf.d(37): SCH: ConstraintMapping: 10-78,  -> L: 0ms, D: 83700243ms, C: false, I: true, N: 1
+04-25 11:50:28.910  6488  6488 I Finsky  : [2] abvf.d(37): SCH: ConstraintMapping: 2-48879, 3-1,  -> L: 0ms, D: 83700227ms, C: true, I: true, N: 2
+04-25 11:50:28.910  6488  6488 I Finsky  : [2] abvf.d(37): SCH: ConstraintMapping: 26-1414141414,  -> L: 41406825ms, D: 42306825ms, C: false, I: false, N: 0
+04-25 11:50:28.928  6488  6488 I Finsky  : [2] abvf.f(7): SCH: Cancelling existing jobscheduler jobs: 9004 9001 9003 9005
+04-25 11:50:28.929  6488  6488 I Finsky  : [2] abvf.e(8): SCH: Throttling wakeup for job 9000 (expected to run in 0 ms) due to recent wakeup
+04-25 11:50:28.929  6488  6488 I Finsky  : [2] abvf.e(23): SCH: Scheduling job Id: 9000, L: 30000, D: 80106355, C: false, I: true, N: 0
+04-25 11:50:28.937  6488  6488 I Finsky  : [2] abvf.e(23): SCH: Scheduling job Id: 9006, L: 1620957, D: 56464248, C: false, I: false, N: 1
+04-25 11:50:28.944  6488  6488 I Finsky  : [2] abvf.e(8): SCH: Throttling wakeup for job 9007 (expected to run in 0 ms) due to recent wakeup
+04-25 11:50:28.944  6488  6488 I Finsky  : [2] abvf.e(23): SCH: Scheduling job Id: 9007, L: 30000, D: 83700243, C: false, I: true, N: 1
+04-25 11:50:28.947  6488  6488 I Finsky  : [2] abvf.e(8): SCH: Throttling wakeup for job 9008 (expected to run in 0 ms) due to recent wakeup
+04-25 11:50:28.947  6488  6488 I Finsky  : [2] abvf.e(23): SCH: Scheduling job Id: 9008, L: 30000, D: 83700227, C: true, I: true, N: 2
+04-25 11:50:28.949  6488  6488 I Finsky  : [2] abvf.e(23): SCH: Scheduling job Id: 9009, L: 41406825, D: 42306825, C: false, I: false, N: 0
+04-25 11:50:28.984  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296400/com.example.bicepgamers:id/createGameButton>
+04-25 11:50:29.444  8709  8709 W System.err: Apr 25, 2022 11:50:29 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:29.444  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:29.549  8709  8709 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+04-25 11:50:29.575  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.AddNewGame@ba2dc90 in: PAUSED
+04-25 11:50:29.607  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 962560
+04-25 11:50:29.610  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 962560
+04-25 11:50:29.612  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 962560
+04-25 11:50:29.647  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@635ee in: PRE_ON_CREATE
+04-25 11:50:29.890  8709  8709 W System.err: Apr 25, 2022 11:50:29 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:29.890  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:29.911  8709  8714 I zygote  : Do partial code cache collection, code=493KB, data=389KB
+04-25 11:50:29.911  8709  8714 I zygote  : After code cache collection, code=490KB, data=388KB
+04-25 11:50:29.911  8709  8714 I zygote  : Increasing code cache capacity to 2MB
+04-25 11:50:29.997  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@635ee in: CREATED
+04-25 11:50:29.998  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@635ee in: STARTED
+04-25 11:50:30.002  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@635ee in: RESUMED
+04-25 11:50:30.012  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:30.031  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:30.166  8709  8714 I zygote  : JIT allocated 71KB for compiled code of void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+04-25 11:50:30.167  8709  8714 I zygote  : Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+04-25 11:50:30.167  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:30.177  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:30.183  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:30.195  8709  8714 I zygote  : JIT allocated 56KB for compiled code of void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+04-25 11:50:30.217  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:30.253  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.ShowAllGames: +674ms
+04-25 11:50:30.300  1669  1682 E memtrack: Couldn't load memtrack module
+04-25 11:50:30.300  1669  1682 W android.os.Debug: failed to get memory consumption info: -1
+04-25 11:50:30.630  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.AddNewGame@ba2dc90 in: STOPPED
+04-25 11:50:30.670  8709  8733 W System.err: Apr 25, 2022 11:50:30 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:30.670  8709  8733 W System.err: INFO: Database closed
+04-25 11:50:30.785  8709  8709 I ViewInteraction: Performing 'scroll RecyclerView to position: 3' action on view view.getId() is <2131296621/com.example.bicepgamers:id/recyclerViewGames>
+04-25 11:50:30.808  8709  8709 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "DIABLOESPRESSO"
+04-25 11:50:30.812  8709  8709 I ViewInteraction: Performing 'actionOnItemAtPosition performing ViewAction: single click on item at position: 3' action on view view.getId() is <2131296621/com.example.bicepgamers:id/recyclerViewGames>
+04-25 11:50:30.885  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@635ee in: PAUSED
+04-25 11:50:30.896  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: PRE_ON_CREATE
+04-25 11:50:31.103  8709  8709 W System.err: Apr 25, 2022 11:50:31 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:31.103  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:31.315  8709  8709 W System.err: Apr 25, 2022 11:50:31 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:31.315  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:31.349  8709  8714 I zygote  : Do full code cache collection, code=997KB, data=672KB
+04-25 11:50:31.349  8709  8714 I zygote  : After code cache collection, code=951KB, data=546KB
+04-25 11:50:31.499  8709  8709 W System.err: Apr 25, 2022 11:50:31 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:31.499  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:31.592  7077  7077 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.phenotype.service.START pkg=com.google.android.gms }
+04-25 11:50:31.592  7077  7077 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.phenotype.service.START pkg=com.google.android.gms }
+04-25 11:50:31.602  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: CREATED
+04-25 11:50:31.604  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: STARTED
+04-25 11:50:31.608  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: RESUMED
+04-25 11:50:31.623  8709  8709 I Choreographer: Skipped 40 frames!  The application may be doing too much work on its main thread.
+04-25 11:50:31.650  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:31.653  1442  1480 I chatty  : uid=1000(system) HwBinder:1442_2 identical 1 line
+04-25 11:50:31.656  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:31.685  1452  1986 E BufferQueueProducer: [Toast#0] cancelBuffer: BufferQueue has been abandoned
+04-25 11:50:31.715  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:31.760  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.SessionTimer: +872ms
+04-25 11:50:32.018  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296653/com.example.bicepgamers:id/sessionButton>
+04-25 11:50:32.162  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@635ee in: STOPPED
+04-25 11:50:35.084  8709  8714 I zygote  : Do partial code cache collection, code=985KB, data=614KB
+04-25 11:50:35.084  8709  8714 I zygote  : After code cache collection, code=985KB, data=614KB
+04-25 11:50:35.084  8709  8714 I zygote  : Increasing code cache capacity to 3MB
+04-25 11:50:35.233  1434  1434 W audio_hw_generic: Not supplying enough data to HAL, expected position 16912393 , only wrote 16490160
+04-25 11:50:36.330  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296361/com.example.bicepgamers:id/breakButton>
+04-25 11:50:36.384  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 16490348 , only wrote 16490160
+04-25 11:50:36.388  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: PAUSED
+04-25 11:50:36.416  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: PRE_ON_CREATE
+04-25 11:50:36.453  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: CREATED
+04-25 11:50:36.454  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: STARTED
+04-25 11:50:36.459  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: RESUMED
+04-25 11:50:36.483  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:36.488  1442  1480 I chatty  : uid=1000(system) HwBinder:1442_2 identical 1 line
+04-25 11:50:36.498  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:36.568  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:36.654  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:36.669  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.ExerciseActivity: +272ms
+04-25 11:50:36.681  7077  7077 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.phenotype.service.START pkg=com.google.android.gms }
+04-25 11:50:36.683  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:36.860  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 16513012 , only wrote 16512480
+04-25 11:50:36.957  8709  8709 I ViewInteraction: Performing 'actionOnItemAtPosition performing ViewAction: Click on a child view with specified id. on item at position: 0' action on view view.getId() is <2131296773/com.example.bicepgamers:id/workoutvideos>
+04-25 11:50:37.046  1452  1452 D SurfaceFlinger: duplicate layer name: changing com.example.bicepgamers/com.example.bicepgamers.GUI.ExerciseActivity to com.example.bicepgamers/com.example.bicepgamers.GUI.ExerciseActivity#1
+04-25 11:50:37.072  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10719232
+04-25 11:50:37.137  1669  2406 I MediaFocusControl: requestAudioFocus() from uid/pid 10081/8709 clientId=android.media.AudioManager@850af7 callingPack=com.example.bicepgamers req=1 flags=0x0 sdk=32
+04-25 11:50:37.180  1547  3864 D NuPlayerDriver: NuPlayerDriver(0xb2094380) created, clientPid(8709)
+04-25 11:50:37.188  1547  3864 D SurfaceUtils: connecting to surface 0xb1b3f008, reason setVideoSurfaceTexture
+04-25 11:50:37.188  1547  8773 D NuPlayer: onSetVideoSurface(0xb1b3e800, no video decoder)
+04-25 11:50:37.201  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:37.203  1547  8774 D GenericSource: FileSource remote
+04-25 11:50:37.219  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10719232
+04-25 11:50:37.222  1545  3889 I SampleTable: There are reordered frames present.
+04-25 11:50:37.224  1547  8773 D NuPlayerDriver: notifyListener_l(0xb2094380), (5, 1920, 1080, -1), loop setting(0, 0)
+04-25 11:50:37.225  1545  4126 D MediaBufferGroup: creating MemoryDealer
+04-25 11:50:37.226  1547  8773 D NuPlayerDriver: notifyListener_l(0xb2094380), (1, 0, 0, -1), loop setting(0, 0)
+04-25 11:50:37.245  8709  8709 D MediaPlayerNative: getMetadata
+04-25 11:50:37.279  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:37.282  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4370432
+04-25 11:50:37.295  1547  3864 D NuPlayerDriver: start(0xb2094380), state is 4, eos is 0
+04-25 11:50:37.295  1547  8773 I GenericSource: start
+04-25 11:50:37.316  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:37.322  1547  8780 I OMXClient: Treble IOmx obtained
+04-25 11:50:37.323  1547  8778 I OMXClient: Treble IOmx obtained
+04-25 11:50:37.336  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4370432
+04-25 11:50:37.337  1551  1840 I OMXMaster: makeComponentInstance(OMX.google.aac.decoder) in omx@1.0-service process
+04-25 11:50:37.351  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: STOPPED
+04-25 11:50:37.367  1551  1573 I OMXMaster: makeComponentInstance(OMX.google.h264.decoder) in omx@1.0-service process
+04-25 11:50:37.387  1551  1828 E OMXNodeInstance: setConfig(0xaac20960:google.aac.decoder, ConfigPriority(0x6f800002)) ERROR: Undefined(0x80001001)
+04-25 11:50:37.387  1547  8780 I ACodec  : codec does not support config priority (err -2147483648)
+04-25 11:50:37.389  1551  1828 E OMXNodeInstance: getConfig(0xaac20960:google.aac.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+04-25 11:50:37.391  1547  8780 I MediaCodec: MediaCodec will operate in async mode
+04-25 11:50:37.399  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(8192) returning hidl_memory(0xab31b830, 8192)
+04-25 11:50:37.412  1547  8776 D SurfaceUtils: disconnecting from surface 0xb1b3e808, reason onConfigure
+04-25 11:50:37.413  1547  8777 D SurfaceUtils: connecting to surface 0xb1b3e808, reason connectToSurface
+04-25 11:50:37.415  1547  8777 I MediaCodec: [OMX.google.h264.decoder] setting surface generation to 1584129
+04-25 11:50:37.415  1547  8777 D SurfaceUtils: disconnecting from surface 0xb1b3e808, reason connectToSurface(reconnect)
+04-25 11:50:37.415  1547  8777 D SurfaceUtils: connecting to surface 0xb1b3e808, reason connectToSurface(reconnect)
+04-25 11:50:37.415  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(8192) returning hidl_memory(0xab31b830, 8192)
+04-25 11:50:37.416  1433  1433 I chatty  : uid=1000(system) allocator@1.0-s identical 1 line
+04-25 11:50:37.416  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(8192) returning hidl_memory(0xab31b830, 8192)
+04-25 11:50:37.419  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xab31b830, 32768)
+04-25 11:50:37.420  1433  1433 I chatty  : uid=1000(system) allocator@1.0-s identical 2 lines
+04-25 11:50:37.421  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xab31b830, 32768)
+04-25 11:50:37.421  1551  1828 E OMXNodeInstance: getExtensionIndex(0xaa69b5a0:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+04-25 11:50:37.421  1547  8778 E ACodec  : [OMX.google.h264.decoder] setPortMode on output to DynamicANWBuffer failed w/ err -1010
+04-25 11:50:37.421  1551  1828 W OMXNodeInstance: [0xaa69b5a0:google.h264.decoder] component does not support metadata mode; using fallback
+04-25 11:50:37.427  1551  1840 D SoftVideoDecoderOMXComponent: Color Aspects preference: 1
+04-25 11:50:37.427  1551  8781 I SoftAAC2: Reconfiguring decoder: 0->48000 Hz, 0->2 channels
+04-25 11:50:37.428  1551  1828 E OMXNodeInstance: setConfig(0xaa69b5a0:google.h264.decoder, ConfigPriority(0x6f800002)) ERROR: UnsupportedIndex(0x8000101a)
+04-25 11:50:37.428  1547  8778 I ACodec  : codec does not support config priority (err -1010)
+04-25 11:50:37.428  1551  1570 E OMXNodeInstance: setConfig(0xaa69b5a0:google.h264.decoder, ConfigOperatingRate(0x6f800003)) ERROR: UnsupportedIndex(0x8000101a)
+04-25 11:50:37.429  1547  8778 I ACodec  : codec does not support config operating rate (err -1010)
+04-25 11:50:37.429  1551  1828 E OMXNodeInstance: getConfig(0xaa69b5a0:google.h264.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: UnsupportedIndex(0x8000101a)
+04-25 11:50:37.432  1551  1573 E OMXNodeInstance: getConfig(0xaa69b5a0:google.h264.decoder, ??(0x7f000003)) ERROR: UnsupportedSetting(0x80001019)
+04-25 11:50:37.433  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xab31b830, 32768)
+04-25 11:50:37.434  1547  8777 I MediaCodec: MediaCodec will operate in async mode
+04-25 11:50:37.434  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xab31b830, 32768)
+04-25 11:50:37.436  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xab31b830, 32768)
+04-25 11:50:37.436  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(3110400) returning hidl_memory(0xab31b830, 3110400)
+04-25 11:50:37.437  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(32768) returning hidl_memory(0xab31b830, 32768)
+04-25 11:50:37.437  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(3110400) returning hidl_memory(0xab31b830, 3110400)
+04-25 11:50:37.450  1433  1433 I chatty  : uid=1000(system) allocator@1.0-s identical 13 lines
+04-25 11:50:37.451  1433  1433 W /system/bin/hw/android.hidl.allocator@1.0-service: ashmem_create_region(3110400) returning hidl_memory(0xab31b830, 3110400)
+04-25 11:50:37.452  1539  1539 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000008) and output flags (00000006)
+04-25 11:50:37.454  1547  8775 D AudioTrack: Client defaulted notificationFrames to 12096 for frameCount 24192
+04-25 11:50:37.459  1547  8773 D NuPlayerDriver: notifyListener_l(0xb2094380), (6, 0, 0, -1), loop setting(0, 0)
+04-25 11:50:37.460  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:37.463  1551  8783 D SoftVideoDecoderOMXComponent: Color Aspects preference: 1
+04-25 11:50:37.518  1547  8775 W AudioTrack: getTimestamp() location moved from kernel to server
+04-25 11:50:37.541  1547  8775 W AudioTrack: getTimestamp() location moved from kernel to server
+04-25 11:50:37.557  1551  8785 E OMXNodeInstance: getConfig(0xaa69b5a0:google.h264.decoder, ??(0x7f000003)) ERROR: UnsupportedSetting(0x80001019)
+04-25 11:50:37.614  1547  8777 D MediaCodec: [OMX.google.h264.decoder] setting dataspace on output surface to #104
+04-25 11:50:37.617  1547  8773 D NuPlayerDriver: notifyListener_l(0xb2094380), (5, 1920, 1080, -1), loop setting(0, 0)
+04-25 11:50:37.618  1452  1986 W GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+04-25 11:50:37.621  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3112960
+04-25 11:50:37.622  1547  8773 D NuPlayerDriver: notifyListener_l(0xb2094380), (200, 3, 0, -1), loop setting(0, 0)
+04-25 11:50:37.638  8709  8751 W MediaPlayerNative: info/warning (3, 0)
+04-25 11:50:37.679  1547  8777 D         : HostConnection::get() New Host Connection established 0xb1551780, tid 8777
+04-25 11:50:37.720  1547  8777 D SoftwareRenderer: setting dataspace on output surface to #104
+04-25 11:50:37.722  1547  8775 I NuPlayerRenderer: possible video time jump of 0ms (33333 : 0) or uninitialized media clock, retrying in 33ms
+04-25 11:50:37.756  1547  8775 I chatty  : uid=1013(media) NuPlayerRendere identical 1 line
+04-25 11:50:37.791  1547  8775 I NuPlayerRenderer: possible video time jump of 0ms (33333 : 0) or uninitialized media clock, retrying in 33ms
+04-25 11:50:37.826  1452  1986 W GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+04-25 11:50:37.826  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3112960
+04-25 11:50:37.857  1452  1469 W GrallocMapperPassthrough: buffer descriptor with invalid usage bits 0x2000
+04-25 11:50:37.857  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3112960
+04-25 11:50:40.574  7751  7751 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.mdd.service.START dat=chimera-action:com.google.android.mdd.service.START cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+04-25 11:50:41.643  1669  1682 E memtrack: Couldn't load memtrack module
+04-25 11:50:41.643  1669  1682 W android.os.Debug: failed to get memory consumption info: -1
+04-25 11:50:42.039  8709  8709 I ViewInteraction: Performing 'send keyCode: 4, metaState: 0 key event' action on view view.getRootView() to equal view
+04-25 11:50:42.047  1547  3864 D NuPlayerDriver: reset(0xb2094380) at state 5
+04-25 11:50:42.048  1546  1565 D MediaAnalyticsService: MediaAnalyticsService::newSummarizerSet
+04-25 11:50:42.049  1547  3864 D NuPlayerDriver: notifyListener_l(0xb2094380), (8, 0, 0, -1), loop setting(0, 0)
+04-25 11:50:42.083  1547  8777 D SurfaceUtils: disconnecting from surface 0xb1b3e808, reason disconnectFromSurface
+04-25 11:50:42.089  1547  8776 D SurfaceUtils: connecting to surface 0xb1b3e808, reason onShutdown
+04-25 11:50:42.099  1547  8773 D NuPlayerDriver: notifyResetComplete(0xb2094380)
+04-25 11:50:42.100  1547  3864 D NuPlayerDriver: reset(0xb2094380) at state 0
+04-25 11:50:42.100  1547  3864 D SurfaceUtils: disconnecting from surface 0xb1b3f008, reason disconnectNativeWindow
+04-25 11:50:42.101  8709  8709 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+04-25 11:50:42.101  8709  8709 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+04-25 11:50:42.101  1547  3864 D AudioTrack: stop() called with 0 frames delivered
+04-25 11:50:42.101  8709  8709 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+04-25 11:50:42.102  8709  8709 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+04-25 11:50:42.108  1669  5614 I MediaFocusControl: abandonAudioFocus() from uid/pid 10081/8709 clientId=android.media.AudioManager@850af7
+04-25 11:50:42.109  1452  1468 E SurfaceFlinger: Failed to find layer (SurfaceView - com.example.bicepgamers/com.example.bicepgamers.GUI.ExerciseActivity#0) in layer parent (no-parent).
+04-25 11:50:42.109  1452  1469 E SurfaceFlinger: Failed to find layer (Background for - SurfaceView - com.example.bicepgamers/com.example.bicepgamers.GUI.ExerciseActivity#0) in layer parent (no-parent).
+04-25 11:50:42.131  8709  8709 W InputEventReceiver: Attempted to finish an input event but the input event receiver has already been disposed.
+04-25 11:50:42.290  8709  8709 I KeyEventActionBase: Back was pressed but there was no Activity stage transition in 150ms. Pressing back may trigger an activity stage transition if the activity is finished as a result. However, the activity may handle the back behavior in any number of other ways internally as well, such as popping the fragment back stack, dismissing a dialog, otherwise manually transacting fragments, etc.
+04-25 11:50:42.294  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296450/com.example.bicepgamers:id/endbreakbutton>
+04-25 11:50:42.390  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: PAUSED
+04-25 11:50:42.408  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: RESTARTED
+04-25 11:50:42.410  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: STARTED
+04-25 11:50:42.411  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: RESUMED
+04-25 11:50:42.432  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:42.437  1442  1480 I chatty  : uid=1000(system) HwBinder:1442_2 identical 1 line
+04-25 11:50:42.442  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:42.477  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:42.493  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:42.520  1792  1792 D StatusBar: disable<e i a s b h r c s q >
+04-25 11:50:42.528  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:42.576  1792  1792 I zygote  : Deoptimizing void com.android.systemui.statusbar.stack.ViewState.animateTo(android.view.View, com.android.systemui.statusbar.stack.AnimationProperties) due to JIT inline cache
+04-25 11:50:42.585  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:42.625  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:42.627  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:42.629  1792  1792 I zygote  : Deoptimizing void com.android.systemui.statusbar.ActivatableNotificationView.setOverrideTintColor(int, float) due to JIT inline cache
+04-25 11:50:42.640  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:42.681  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:42.731  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:42.799  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: STOPPED
+04-25 11:50:42.800  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ExerciseActivity@25cc6e6 in: DESTROYED
+04-25 11:50:43.092  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:45.531  1434  1434 W audio_hw_generic: Not supplying enough data to HAL, expected position 17343757 , only wrote 16928640
+04-25 11:50:46.769  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296653/com.example.bicepgamers:id/sessionButton>
+04-25 11:50:46.833  1434  4332 W audio_hw_generic: Not supplying enough data to HAL, expected position 16928864 , only wrote 16928640
+04-25 11:50:46.879  1452  1452 D SurfaceFlinger: duplicate layer name: changing com.example.bicepgamers/com.example.bicepgamers.GUI.SessionTimer to com.example.bicepgamers/com.example.bicepgamers.GUI.SessionTimer#1
+04-25 11:50:46.883  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3342336
+04-25 11:50:46.884  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3342336
+04-25 11:50:46.886  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 3342336
+04-25 11:50:46.906  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:46.964  1669  1686 I WifiService: requestActivityInfo uid=1000
+04-25 11:50:46.964  1669  1686 I WifiService: reportActivityInfo uid=1000
+04-25 11:50:46.964  1669  1686 I WifiService: getSupportedFeatures uid=1000
+04-25 11:50:46.967  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:46.974  8709  8737 I chatty  : uid=10081(com.example.bicepgamers) RenderThread identical 1 line
+04-25 11:50:46.985  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:47.217  8709  8709 I ViewInteraction: Performing 'single click' action on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "End"
+04-25 11:50:47.281  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:47.334  8709  8709 I System.out: DIABLOESPRESSO
+04-25 11:50:47.354  8709  8709 W System.err: Apr 25, 2022 11:50:47 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:47.354  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:47.478  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:47.497  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:47.500  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: PAUSED
+04-25 11:50:47.518  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@10c8281 in: PRE_ON_CREATE
+04-25 11:50:47.746  8709  8720 I zygote  : Background concurrent copying GC freed 107330(5MB) AllocSpace objects, 18(392KB) LOS objects, 46% free, 6MB/12MB, paused 529us total 116.450ms
+04-25 11:50:47.804  8709  8709 W System.err: Apr 25, 2022 11:50:47 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:47.804  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:47.908  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@10c8281 in: CREATED
+04-25 11:50:47.908  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@10c8281 in: STARTED
+04-25 11:50:47.911  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@10c8281 in: RESUMED
+04-25 11:50:48.048  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:48.053  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:48.069  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:48.118  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:48.167  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.ShowAllGames: +661ms
+04-25 11:50:48.469  8709  8709 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131296663/com.example.bicepgamers:id/sessions>
+04-25 11:50:48.495  1792  1792 D StatusBar: disable<e i a s b h r c s q >
+04-25 11:50:48.518  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:48.525  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 286720
+04-25 11:50:48.551  1792  2002 D EGL_emulation: eglMakeCurrent: 0x91c44560: ver 2 0 (tinfo 0x91fd4a30)
+04-25 11:50:48.571  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@10c8281 in: PAUSED
+04-25 11:50:48.592  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 286720
+04-25 11:50:48.609  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 286720
+04-25 11:50:48.627  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.SessionTimer@cdaf6d8 in: STOPPED
+04-25 11:50:48.656  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllSessions@15c1b90 in: PRE_ON_CREATE
+04-25 11:50:48.870  8709  8709 W System.err: Apr 25, 2022 11:50:48 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:48.871  8709  8709 W System.err: INFO: Database closed
+04-25 11:50:48.976  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllSessions@15c1b90 in: CREATED
+04-25 11:50:48.979  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllSessions@15c1b90 in: STARTED
+04-25 11:50:48.981  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllSessions@15c1b90 in: RESUMED
+04-25 11:50:49.046  1442  1442 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:49.049  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:49.057  1442  1480 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9334784
+04-25 11:50:49.071  1669  1682 E memtrack: Couldn't load memtrack module
+04-25 11:50:49.071  1669  1682 W android.os.Debug: failed to get memory consumption info: -1
+04-25 11:50:49.085  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:49.110  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:49.111  1669  1690 I ActivityManager: Displayed com.example.bicepgamers/.GUI.ShowAllSessions: +533ms
+04-25 11:50:49.143  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:49.167  8709  8737 I chatty  : uid=10081(com.example.bicepgamers) RenderThread identical 1 line
+04-25 11:50:49.186  8709  8737 D EGL_emulation: eglMakeCurrent: 0xa2e050c0: ver 2 0 (tinfo 0xa2e030d0)
+04-25 11:50:49.208  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.ShowAllGames@10c8281 in: STOPPED
+04-25 11:50:49.506  8709  8733 W System.err: Apr 25, 2022 11:50:49 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:49.506  8709  8733 W System.err: INFO: Database closed
+04-25 11:50:49.609  8709  8709 I ViewInteraction: Performing 'scroll RecyclerView to position: 0' action on view view.getId() is <2131296622/com.example.bicepgamers:id/recyclerViewSessions>
+04-25 11:50:49.617  8709  8709 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "DIABLOESPRESSO"
+04-25 11:50:49.619  8709  8709 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "PC"
+04-25 11:50:49.621  8709  8709 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "MOBA"
+04-25 11:50:49.624  8709  8709 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "ONLINE"
+04-25 11:50:49.678  8709  8733 W System.err: Apr 25, 2022 11:50:49 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:49.678  8709  8733 W System.err: INFO: Database closed
+04-25 11:50:49.830  8709  8733 W System.err: Apr 25, 2022 11:50:49 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:49.830  8709  8733 W System.err: INFO: Database closed
+04-25 11:50:49.998  8709  8733 W System.err: Apr 25, 2022 11:50:49 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:49.998  8709  8733 W System.err: INFO: Database closed
+04-25 11:50:50.137  8709  8733 W System.err: Apr 25, 2022 11:50:50 AM org.hsqldb.persist.Logger logInfoEvent
+04-25 11:50:50.137  8709  8733 W System.err: INFO: Database closed
+04-25 11:50:50.243  8709  8709 D LifecycleMonitor: Lifecycle status change: com.example.bicepgamers.GUI.HomePage@f01d7ce in: DESTROYED
+04-25 11:50:50.248  8709  8733 I TestRunner: finished: showAllGames(AndroidUITest)

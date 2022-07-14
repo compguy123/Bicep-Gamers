@@ -1,2 +1,0 @@
-create table if not exists
- games( gameId int identity primary key not null  , gameName varchar(255), gameGenre varchar(255),gameDevice varchar(255), gameType int );

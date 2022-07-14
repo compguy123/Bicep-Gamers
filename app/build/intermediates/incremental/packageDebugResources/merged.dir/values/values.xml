@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="Games">
+        <item>League Of Legends</item>
+        <item>Minecraft</item>
+        <item>Rocket League</item>
+    </string-array>
+    <string-array name="devices">
+        <item>PC</item>
+        <item>CONSOLE</item>
+        <item>VR</item>
+        <item>MOBILE</item>
+    </string-array>
+    <string-array name="genre">
+        <item>MOBA</item>
+        <item>SANDBOX</item>
+        <item>REAL-TIME STRATEGY</item>
+        <item>SHOOTER</item>
+        <item>RPG</item>
+        <item>PLATFORMER</item>
+        <item>SURVIVAL AND HORROR</item>
+        <item>ACTION-ADVENTURE</item>
+        <item>PUZZLERS AND PARTY GAMES</item>
+    </string-array>
+    <color name="backGround">#bf74fc</color>
+    <color name="backGroundTop">#8c9ce6</color>
+    <color name="black">#FF000000</color>
+    <color name="cellColor">#dedeff</color>
+    <color name="colorPrimary">#8c9ce6</color>
+    <color name="colorPrimaryDark">#8c9ce6</color>
+    <color name="deleteButton">#e85f6d</color>
+    <color name="navItem">#FF77A5</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="switchButton">#ffc640</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Create">BicepGamers-Create A Game</string>
+    <string name="Games">BicepGamers</string>
+    <string name="History">Sessions History</string>
+    <string name="Timer">BicepGamers-Timer</string>
+    <string name="addnewgame">Add New Game</string>
+    <string name="app_name">BicepGamers</string>
+    <string name="chooseADevice">Device</string>
+    <string name="chooseAGame">Choose A Game</string>
+    <string name="chooseAGenre">Genre</string>
+    <string name="createAGame">Create Game</string>
+    <string name="gameName">Input Game Name</string>
+    <string name="online">Online</string>
+    <string name="selectDevice">Select a device</string>
+    <string name="selectGenre">Select a genre....</string>
+    <style name="Theme.BicepGamers" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/switchButton</item>
+    </style>
+</resources>

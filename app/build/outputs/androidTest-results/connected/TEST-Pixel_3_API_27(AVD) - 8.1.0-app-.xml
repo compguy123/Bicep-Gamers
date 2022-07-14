@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name=".AndroidUITest" tests="1" failures="0" errors="0" skipped="0" time="30.92" timestamp="2022-04-25T16:50:51" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_3_API_27(AVD) - 8.1.0" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="showAllGames" classname=".AndroidUITest" time="30.194" />
+</testsuite>

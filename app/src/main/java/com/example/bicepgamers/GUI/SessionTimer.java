@@ -1,15 +1,30 @@
 package com.example.bicepgamers.GUI;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.media.RingtoneManager;
+import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.View;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.AnimationSet;
+import android.view.animation.ScaleAnimation;
+import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.bicepgamers.Logic.GameManager;
+import com.example.bicepgamers.Logic.SessionManager;
 import com.example.bicepgamers.R;
 import com.example.bicepgamers.objects.Game;
 import com.example.bicepgamers.objects.Session;
@@ -17,17 +32,19 @@ import com.example.bicepgamers.objects.Session;
 import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
-/*
-This class is the gui implemented for iteration 1
-It is the session class. The user starts the timmer
- */
 
+/*
+THis is the class for the session timer gui page
+ */
 public class SessionTimer extends AppCompatActivity {
 
     private Session curSession = null;
+    private Game curGame = null;
 
     // session timer display and session button
     private TextView sessionView;
+    // for small timer at the right top corner
+    private TextView sessionView2;
     private Button sessionButton;
 
     // control session time running
@@ -39,10 +56,8 @@ public class SessionTimer extends AppCompatActivity {
     private TextView breakView;
     private Button breakButton;
 
-    // control break time running
-    private Timer breakTimer;
-    private TimerTask breakTimerTask;
     private Double breakTime = 0.0;
+    private Double totalBreakLength = 0.0;
 
     // control game time running
     private Timer gameTimer;
@@ -50,29 +65,87 @@ public class SessionTimer extends AppCompatActivity {
     private Double gameTime = 0.0;
 
     private boolean onBreak = false;
+    private boolean executeOnResume= false; //differentiates if this activity is resumed or created.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.session_timer);
 
+        //set parameters
         sessionView = findViewById(R.id.sessionTime);
+        sessionView2 = findViewById(R.id.sessionTime2);
+        sessionView2.setVisibility(View.INVISIBLE);
         sessionButton = findViewById(R.id.sessionButton);
 
         breakView = findViewById(R.id.breakTime);
+        breakView.setVisibility(View.INVISIBLE);
         breakButton = findViewById(R.id.breakButton);
         breakButton.setEnabled(false);
+        breakButton.setVisibility(View.INVISIBLE);
 
+        //timer of seesion
         sessionTimer = new Timer();
         gameTimer = new Timer();
-        breakTimer = new Timer();
+
+        //if a break has not been taken in 2 hrs , give notification to take break
+        createNotificationChannel();
+
+        sessionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startEndSession();
+            }
+        });
+
+        //when the user clicks start break button, show the workout video page
+        breakButton.setOnClickListener(view -> openExercisePage());
+
+        //display the details of the game in the top left
+        TextView gameSession = findViewById(R.id.gameSession);
+        TextView genreSession = findViewById(R.id.genreSession);
+        TextView deviceSession = findViewById(R.id.deviceSession);
+        TextView typeSession = findViewById(R.id.typeSession);
+
+        Intent intent = getIntent();
+        String[] gameVar = intent.getStringArrayExtra("gameVar");
+
+        boolean gameType;
+        if(gameVar[3].equalsIgnoreCase("Online")) {
+            gameType = true;
+        }
+        else {
+            gameType = false;
+        }
+        curGame = new Game(gameVar[0], gameVar[1], gameVar[2], gameType);
+        curGame.setID(Integer.parseInt(gameVar[4]));
+        GameManager gameManager = new GameManager();
+        curGame.setGenreIntensity(gameManager.getGenreIntensity(curGame));
+        curGame.setDeviceIntensity(gameManager.getDeviceIntensity(curGame));
+        curGame.setTypeIntensity(gameManager.getTypeIntensity(curGame));
+
+        gameSession.setText(gameVar[0]);
+        genreSession.setText(gameVar[1]);
+        deviceSession.setText(gameVar[2]);
+        typeSession.setText(gameVar[3]);
+
     }
 
+    //this is run when the user returns to this page after the break ends.
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(executeOnResume){
+            endBreak();
+            startGame();
+        }
+    }
+
+
     // onClick function for session button
-    public void startEndSession(View view) {
+    private void startEndSession() {
         if(curSession == null) {
 
-            Game curGame = new Game(1, 2, 3);
             curSession = new Session(curGame);
 
             startSession();
@@ -82,33 +155,40 @@ public class SessionTimer extends AppCompatActivity {
         }
     }
 
-    // onClick function for break button
-    public void startEndBreak(View view) {
-        if(!onBreak) {
-            startBreakClick();
-        }
-        else {
-            endBreakClick();
-        }
+    private void openExercisePage(){
+        //when the user clicks on start break button
+        //start time
+        startBreak();
+        endGame();
+        //show workout video page.
+        Intent intent = new Intent(this, ExerciseActivity.class);
+        intent.putExtra("breakTime", breakTime);
+        startActivity(intent);
     }
 
-    // what to do when a session start
+
+
+    // start session button
     private void startSession() {
         setButtonUI(sessionButton,"End Session");
 
         sessionTimerTask = new TimerTask() {
             @Override
             public void run() {
+                //increment timer
                 runOnUiThread(() -> {
                     sessionTime++;
                     sessionView.setText(getTimerText(sessionTime));
+                    sessionView2.setText(getTimerText(sessionTime));
                 });
             }
         };
         sessionTimer.scheduleAtFixedRate(sessionTimerTask, 0, 1000);
 
+        //show start break button
         breakButton.setEnabled(true);
-
+        breakButton.setVisibility(View.VISIBLE);
+        //session has started , start timer
         startGame();
     }
 
@@ -120,18 +200,29 @@ public class SessionTimer extends AppCompatActivity {
         resetAlert.setPositiveButton("End", (DialogInterface dialogInterface, int i) -> {
             if(sessionTimerTask != null) {
                 sessionTimerTask.cancel();
-
-                endBreak();
+                //end the timer
                 endGame();
 
+                //add this session to the data base
                 curSession.setSessionLength(sessionTime);
+                totalBreakLength = curSession.getSessionLength() - curSession.getGameLength();
+                curSession.setBreakLength(totalBreakLength);
+                SessionManager sessionManager = new SessionManager();
+                sessionManager.insertSession(curSession);
+
+                // chamge ene session button , to start session
                 setButtonUI(sessionButton,"Start Session");
                 sessionTime = 0.0;
                 curSession = null;
                 sessionView.setText(getTimerText(sessionTime));
+                sessionView2.setText(getTimerText(sessionTime));
 
+                //remove break button
                 breakButton.setEnabled(false);
-                Log.i("im here", "im here");
+
+                //go back to game page when session is done
+                Intent intent = new Intent(this, ShowAllGames.class);
+                startActivity(intent);
             }
         });
 
@@ -140,34 +231,18 @@ public class SessionTimer extends AppCompatActivity {
         resetAlert.show();
     }
 
-    // what to do when a break start
-    private void startBreakClick() {
-        startBreak();
-        endGame();
-    }
-
-    // what to do when a break end
-    private void endBreakClick() {
-        AlertDialog.Builder resetAlert = new AlertDialog.Builder((this));
-        resetAlert.setTitle("End Break");
-        resetAlert.setMessage("Do you want to end this break?");
-        resetAlert.setPositiveButton("End", (DialogInterface dialogInterface, int i) -> {
-
-            endBreak();
-            startGame();
-        });
-
-        resetAlert.setNeutralButton("Cancel", (DialogInterface dialogInterface, int i) -> {});
-
-        resetAlert.show();
-    }
 
     // keep track when game time start
     private void startGame() {
+        double notificationTime = 7200.00;
         gameTimerTask = new TimerTask() {
             @Override
             public void run() {
-                runOnUiThread(() -> gameTime++);
+                gameTime++;
+                if(gameTime==notificationTime){
+                    //give notification if session has gonei over 2 hrs without a break
+                    giveNotification();
+                }
             }
         };
         gameTimer.scheduleAtFixedRate(gameTimerTask, 0, 1000);
@@ -177,42 +252,51 @@ public class SessionTimer extends AppCompatActivity {
     private void endGame() {
         if(gameTimerTask != null) {
             gameTimerTask.cancel();
+            // track when session has ended and put it in databse
             curSession.setGameLength(curSession.getGameLength() + gameTime);
             gameTime = 0.0;
         }
     }
 
-    // keep track when break time start
+    // calculates the break time
     private void startBreak() {
         breakTime = curSession.getBreakTime(gameTime);
-        setButtonUI(breakButton,"End Break");
+        if(breakTime < 120.0) {
+            breakTime = 120.0;
+       }
         onBreak = true;
-
-        breakTimerTask = new TimerTask() {
-            @Override
-            public void run() {
-                runOnUiThread(() -> {
-                    breakView.setText(getTimerText(breakTime));
-                    breakTime--;
-                    if(breakTime <= 0) {
-                        endBreak();
-                        startGame();
-                    }
-                });
-            }
-        };
-        breakTimer.scheduleAtFixedRate(breakTimerTask, 0, 1000);
+        executeOnResume = true;
     }
 
-    // keep track when break time end
-    private void endBreak() {
-        if(breakTimerTask != null) {
-            breakTimerTask.cancel();
-            curSession.setBreakLength(curSession.getBreakLength() + breakTime);
-            setButtonUI(breakButton,"Start Break");
-            breakTime = 0.0;
-            onBreak = false;
-            breakView.setText(getTimerText(breakTime));
+    //resets the variables after taking a break
+    private void endBreak(){
+        breakTime = 0.0;
+        onBreak = false;
+    }
+
+    //gives sound notification to remind the user to take a break.
+    private void giveNotification(){
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "Notification");
+        builder.setPriority(NotificationCompat.PRIORITY_MAX);
+        builder.setContentTitle("Break Notification");
+        builder.setContentText("Playing for too long. Break is recommended!");
+        builder.setContentIntent(null);
+        builder.setSmallIcon(R.drawable.imageedit_4_8282271901);
+        builder.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION));
+        builder.setAutoCancel(true);
+
+        NotificationManagerCompat managerCompat = NotificationManagerCompat.from(this);
+        managerCompat.notify(1, builder.build());
+
+    }
+
+    private void createNotificationChannel(){
+        //notification helper function for android versions greater than Oreo
+        if(Build.VERSION.SDK_INT >=Build.VERSION_CODES.O){
+            NotificationChannel channel = new NotificationChannel("Notification", "Notification", NotificationManager.IMPORTANCE_HIGH);
+            NotificationManager manager = getSystemService(NotificationManager.class);
+
+            manager.createNotificationChannel(channel);
         }
     }
 
@@ -231,6 +315,7 @@ public class SessionTimer extends AppCompatActivity {
         return formatTime(seconds, minutes, hours);
     }
 
+    //format time to display to the user
     private String formatTime(int seconds, int minutes, int hours) {
         return String.format(Locale.getDefault(), "%02d", hours) + ":" +
                 String.format(Locale.getDefault(),"%02d", minutes) + ":" +

@@ -1,6 +1,0 @@
-insert into games (gameName, gameGenre , gameType, gameDevice)
-values ('League of Legends','Moba',1,'PC');
-insert into games (gameName, gameGenre , gameType, gameDevice)
-values ('Call of Duty','Shooter',1,'Console');
-insert into games (gameName, gameGenre , gameType, gameDevice)
-values ('Mario','Platformer',0,'console')

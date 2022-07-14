@@ -26,5 +26,8 @@ Our team will use Git flow as the branching strategy. There will be a master bra
 
 The main reason for choosing this strategy is that it has a separate development branch so it is more stable and clear than the github flow.
 
-# Iteration 1 Worksheet
-[Worksheet](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/Iteration1WorkSheet/i1_worksheet.md#iteration-1-worksheet)
+# Worksheets
+* [Worksheet 1](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/main/i1_worksheet.md)
+* [Worksheet 2](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/main/i2_worksheet.md)
+* [Worksheet 3](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/main/i3_worksheet.md)
+

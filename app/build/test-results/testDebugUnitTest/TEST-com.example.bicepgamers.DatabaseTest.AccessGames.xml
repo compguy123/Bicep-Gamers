@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bicepgamers.DatabaseTest.AccessGames" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-25T16:51:11" hostname="MOKA" time="2.27">
+  <properties/>
+  <testcase name="getIntensities" classname="com.example.bicepgamers.DatabaseTest.AccessGames" time="0.952"/>
+  <testcase name="getGame" classname="com.example.bicepgamers.DatabaseTest.AccessGames" time="0.292"/>
+  <testcase name="testDelete" classname="com.example.bicepgamers.DatabaseTest.AccessGames" time="0.575"/>
+  <testcase name="testInsert" classname="com.example.bicepgamers.DatabaseTest.AccessGames" time="0.296"/>
+  <testcase name="getGames" classname="com.example.bicepgamers.DatabaseTest.AccessGames" time="0.155"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr. 25, 2022 11:51:12 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:12 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:12 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:12 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:12 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:13 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+Apr. 25, 2022 11:51:14 A.M. org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+]]></system-err>
+</testsuite>

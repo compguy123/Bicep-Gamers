@@ -14,14 +14,16 @@ public class Spinner implements AdapterView.OnItemSelectedListener {
         this.context = context;
     }
 
-    @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-        String deviceName = adapterView.getItemAtPosition(i).toString();
-        Toast.makeText(getApplicationContext(), deviceName, Toast.LENGTH_LONG).show();
-    }
+
 
     private Context getApplicationContext() {
         return this.context;
+    }
+
+    //THis functions are not needed to implement
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
     }
 
     //on defaults selects an option, method never used

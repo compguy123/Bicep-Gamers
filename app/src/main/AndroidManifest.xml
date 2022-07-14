@@ -10,26 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BicepGamers">
         <activity
-            android:name=".GUI.addANewGame"
-            android:exported="true">
+            android:name=".GUI.HomePage"
+            android:exported="true"
+            android:label="@string/Games">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
-            android:name=".GUI.showAllGames"
-            android:label="@string/Games"
-            android:exported="true">
-        </activity>
+            android:name=".GUI.ShowAllGames"
+            android:exported="true"
+            android:label="@string/Games"></activity>
+        <activity
+            android:name=".GUI.AddNewGame"
+            android:exported="true"></activity>
+        <activity
+            android:name=".GUI.ShowAllSessions"
+            android:exported="true"
+            android:label="@string/History"></activity>
         <activity
             android:name=".GUI.SessionTimer"
-            android:label="@string/Timer"
-            android:exported="true">
-
-        </activity>
-
+            android:exported="true"
+            android:label="@string/Timer"></activity>
+        <activity android:name=".GUI.ExerciseActivity"
+            android:exported="true"
+            ></activity>
     </application>
 
 </manifest>
