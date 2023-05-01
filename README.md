@@ -21,5 +21,8 @@ This application will be considered a success based on three criteria:
 
 Improving gamer performance can be assessed with comparing their W/L record. Improving gamer health can be assessed with a survey that inquiries if gamers have reduced wrist pain, improved posture, and/or better mood while gaming. We will also conduct a survey on the likelihood of continued use of the app. This survey will not only indicate the conventionality of the app but also indicate if the app has become mundane after continuous use.
 
+![image](https://user-images.githubusercontent.com/77632039/235547088-e6bf427f-e13e-4e92-8386-fcff3d7c0b0e.png)
+
+
 
 
