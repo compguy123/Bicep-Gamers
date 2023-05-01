@@ -21,13 +21,5 @@ This application will be considered a success based on three criteria:
 
 Improving gamer performance can be assessed with comparing their W/L record. Improving gamer health can be assessed with a survey that inquiries if gamers have reduced wrist pain, improved posture, and/or better mood while gaming. We will also conduct a survey on the likelihood of continued use of the app. This survey will not only indicate the conventionality of the app but also indicate if the app has become mundane after continuous use.
 
-# Branching strategy 
-Our team will use Git flow as the branching strategy. There will be a master branch and a development branch. For every new feature, it will be worked in branches taken from the development branch. When a branch is finished, it is merged back into the development branch. For the release branch, we created it from the development branch, and then further to the hotfix branch if required. When everything has been checked, the content will be pushed to the master branch.
 
-The main reason for choosing this strategy is that it has a separate development branch so it is more stable and clear than the github flow.
-
-# Worksheets
-* [Worksheet 1](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/main/i1_worksheet.md)
-* [Worksheet 2](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/main/i2_worksheet.md)
-* [Worksheet 3](https://code.cs.umanitoba.ca/winter-2022-a01/group-16/killer-nano-robots/-/blob/main/i3_worksheet.md)
 
