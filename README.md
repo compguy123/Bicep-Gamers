@@ -24,7 +24,8 @@ Improving gamer performance can be assessed with comparing their W/L record. Imp
 
 <br />Main Page:
 
-![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/d4e94134-a9b3-4b3c-90b9-91424ab3bd71)
+![image](https://github.com/compguy123/Bicep-Gamers/assets/77632039/73e6d5fe-9a1a-4cda-83ef-e7f599071b61)
+
 
 <br /> Games Page:
 
