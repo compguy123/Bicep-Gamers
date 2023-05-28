@@ -29,19 +29,19 @@ Improving gamer performance can be assessed with comparing their W/L record. Imp
 
 <br /> Games Page:
 
-![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/a410b16a-eb5e-4adb-8b38-ef5b0ce3bb72)
+![image](https://github.com/compguy123/Bicep-Gamers/assets/77632039/c8974235-5e62-46a9-b381-9caa0d67f783)
 
 <br /> Starting a Session:
 
-![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/5a630e3b-30cd-445a-814a-3a0d6ea9cf8e)
+![image](https://github.com/compguy123/Bicep-Gamers/assets/77632039/121cde8c-66a6-4e2f-9864-b0cff2b5afbe)
 
 <br /> Starting a Break:
 
-![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/befb7523-29a4-4807-ab87-3a68f5c42907)
+![image](https://github.com/compguy123/Bicep-Gamers/assets/77632039/0fd55bb6-ec92-4336-a78b-2027600d8bb6)
 
 <br /> Session History:
 
-![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/509d10e4-128d-419d-9337-11fd1f3323c9)
+![image](https://github.com/compguy123/Bicep-Gamers/assets/77632039/a0f343fb-9a4a-43b9-a96c-8345bc1c071f)
 
 
 
