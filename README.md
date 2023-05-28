@@ -23,11 +23,24 @@ Improving gamer performance can be assessed with comparing their W/L record. Imp
 
 
 <br />Main Page:
+
 ![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/d4e94134-a9b3-4b3c-90b9-91424ab3bd71)
 
 <br /> Games Page:
 
+![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/a410b16a-eb5e-4adb-8b38-ef5b0ce3bb72)
 
+<br /> Starting a Session:
+
+![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/5a630e3b-30cd-445a-814a-3a0d6ea9cf8e)
+
+<br /> Starting a Break:
+
+![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/befb7523-29a4-4807-ab87-3a68f5c42907)
+
+<br /> Session History:
+
+![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/509d10e4-128d-419d-9337-11fd1f3323c9)
 
 
 
