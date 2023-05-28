@@ -22,6 +22,14 @@ This application will be considered a success based on three criteria:
 Improving gamer performance can be assessed with comparing their W/L record. Improving gamer health can be assessed with a survey that inquiries if gamers have reduced wrist pain, improved posture, and/or better mood while gaming. We will also conduct a survey on the likelihood of continued use of the app. This survey will not only indicate the conventionality of the app but also indicate if the app has become mundane after continuous use.
 
 
+<br />Main Page:
+![image](https://github.com/compguy123/Killer-Nano-Robots/assets/77632039/d4e94134-a9b3-4b3c-90b9-91424ab3bd71)
+
+<br /> Games Page:
+
+
+
+
 
 
 
